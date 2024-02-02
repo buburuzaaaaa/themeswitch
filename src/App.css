@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-color: rgb(189, 7, 7);
+  color: white;
+}
+.header{
+  width: 30%;
+  background-color: black;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  height: 3rem;
+  margin: auto;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+img{
+  width: 50%;
+  margin: auto;
+}
+/* App.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.ls9 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+    border-radius: 10px;
+    border: 5px solid black;
+}
+hr{
+  outline: none;
+  border: 3.5px solid black;
+}
+.ls9{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
 }
