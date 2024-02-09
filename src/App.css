@@ -38,7 +38,7 @@
   }
 }
 body{
-  background-color: rgb(189, 7, 7);
+  /* background-color: rgb(189, 7, 7); */
   color: white;
 }
 .header{
@@ -196,7 +196,7 @@ hr{
 /* Footer.css */
 
 .footer {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -218,3 +218,19 @@ hr{
 .social-icons a:hover {
   color: #ff6f61;
 }
+
+/* App.css */
+:root {
+  --primary-color-light: #007bff; /* Blue */
+  --primary-color-dark: red; /* Dark */
+}
+
+body.light {
+  --primary-color: var(--primary-color-light);
+}
+
+body.blue {
+  --primary-color: var(--primary-color-dark);
+}
+
+/* Add your other styles */

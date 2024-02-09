@@ -9,9 +9,15 @@ import ls1 from './imgs/ls1.jpg'
 import './App.css';
 import Header1 from './components/Header1'
 import Footer from './components/Footer'
+import ThemeProvider from './components/ThemeProvider';
+import ThemeSwitcher from './components/ThemeSwitcher';
+
+
 function App() {
   return (
     <div className="App">
+        <ThemeProvider>
+          <ThemeSwitcher/>
        <Header1 />
     <img src={chevy} alt="" className="logo"/>
     <hr />
@@ -40,6 +46,7 @@ function App() {
       <p>The LS1 engine is an iconic symbol of Chevrolet's dedication to high-performance automotive engineering. Introduced in the late 1990s, the LS1 quickly became legendary for its power, reliability, and versatility. As a 5.7-liter V8 powerhouse, the LS1 propelled a new generation of performance vehicles, including the Corvette C5 and Camaro SS. With its naturally aspirated design, the LS1 delivers an impressive 350 horsepower and 365 lb-ft of torque, providing drivers with exhilarating acceleration and thrilling performance on both the street and the track. What sets the LS1 apart is its tunability, offering enthusiasts a solid foundation for aftermarket modifications and enhancements. From camshaft upgrades and intake modifications to exhaust enhancements and tuning adjustments, the LS1 engine provides ample opportunities for customization to suit individual preferences and performance goals. With its combination of power, reliability, and tunability, the LS1 engine remains a cornerstone of modern American muscle car culture and continues to inspire automotive enthusiasts around the world.</p>
      </div>
      <Footer/>
+     </ThemeProvider>
     </div>
 
   );
