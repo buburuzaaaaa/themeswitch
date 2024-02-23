@@ -98,12 +98,15 @@ hr{
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
 .ls7{
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
+
 .ls7 img {
   width: 250px;
   /* Set the width to 250 pixels */
@@ -126,12 +129,14 @@ hr{
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
 
 .ls3 {
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
 
 .ls3 img {
@@ -156,11 +161,13 @@ hr{
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
 .ls1 {
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: black;
 }
 .ls1 img {
   width: 250px;
